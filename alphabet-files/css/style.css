@@ -1,0 +1,88 @@
+body
+{
+   padding: 0;
+   margin: 0;
+   background-color: #a3816a;
+   font-size: 62.5%;
+   font-family: "Tw Cen MT", Helvetica, Arial, sans-serif;
+}
+
+header
+{
+   background-color: #f4dada;
+}
+
+header h1
+{
+   text-align:center;
+   font-size: 6em;
+   color: #a3816a;
+   margin:0;
+   padding-top: 20px;
+}
+
+
+header #quotation
+{
+   text-align: center; 
+   font-style: italic;
+   font-family: "Tw Cen MT", Helvetica, Arial, sans-serif;
+   font-size: 150%;
+   padding-bottom: 20px;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #fdfdf6;
+}
+
+nav a {
+  display:inline-block;
+  color: #226597;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+main
+{
+   width: 80%;
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 2em;
+   color: #fff;
+   font-family: "Tw Cen MT", Helvetica, Arial, sans-serif;
+   font-size: 200%;
+}
+
+footer
+{
+   color: #fff;
+}
+
+
+.letter
+{
+   width: 100px;
+   height: 100px;
+   text-align: center;
+   color: #a3816a;
+   font-family: "Tw Cen MT", Helvetica, Arial, sans-serif;
+   font-size: 50px;
+   background: white;
+   margin-bottom: 10px;
+   border-radius: 50%;
+   line-height: 100px;
+   text-align: center;
+}
